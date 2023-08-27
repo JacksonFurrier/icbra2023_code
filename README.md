@@ -1,4 +1,4 @@
-# 3D Volumetric left ventricle segmentation of MPI SPECT images with self-supervised learning
+# Self-supervised segmentation of myocardial perfusion imaging SPECT left ventricles
 
 
 Project Organization
@@ -13,3 +13,9 @@ Project Organization
     ├── ssl_relative_patch_location.py          <- SSL algorithm to solve the relative patch location pretext tasks
     ├── supervised_training.py                  <- algorithm for supervised training on the target task after SSL
     ├── utils.py                                <- utility functions
+
+
+Baseline method implementation
+------------
+
+    ├── A new method incorporating deep learning with shape priors for left ventricular segmentation in myocardial perfusion SPECT images - https://github.com/MIILab-MTU/AIInHealthcare_LVSeg.git 
